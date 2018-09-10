@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ADI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" BizDomain="0" Priority="5">
+    <Objects>
+        <Object ElementType="Program" ID="Umai:PROG/3941258@BESTV.SMG.SMG" Action="REGIST" Code="Umai:PROG/3941258@BESTV.SMG.SMG">
+            <Property Name="Name"><![CDATA[回看-洨河疑案-一线-180602-法治]]></Property>
+            <Property Name="OriginalName"><![CDATA[回看-洨河疑案-一线-180602-法治]]></Property>
+            <Property Name="SortName"><![CDATA[hkxhyayx180602fz]]></Property>
+            <Property Name="SearchName"><![CDATA[hkxhyayx180602fz]]></Property>
+            <Property Name="Genre"><![CDATA[新闻;案件]]></Property>
+            <Property Name="ActorDisplay"/>
+            <Property Name="WriterDisplay"/>
+            <Property Name="OriginalCountry"><![CDATA[中国大陆]]></Property>
+            <Property Name="Language"><![CDATA[国语]]></Property>
+            <Property Name="ReleaseYear"><![CDATA[2018]]></Property>
+            <Property Name="OrgAirDate"/>
+            <Property Name="LicensingWindowStart">20180603205030</Property>
+            <Property Name="LicensingWindowEnd">20280603205030</Property>
+            <Property Name="DisplayAsNew"><![CDATA[7]]></Property>
+            <Property Name="DisplayAsLastChance"/>
+            <Property Name="Macrovision">0</Property>
+            <Property Name="Description"><![CDATA[回看节目。2017年12月31日，河北省邢台市公安局大曹庄管理区分局接到报警，某名出租车司机失踪，警方探查后认定有恶性刑事案件的可能性。]]></Property>
+            <Property Name="PriceTaxIn">0.00</Property>
+            <Property Name="Status">0</Property>
+            <Property Name="SourceType">1</Property>
+            <Property Name="SeriesFlag">0</Property>
+            <Property Name="Type">法治</Property>
+            <Property Name="Keywords"><![CDATA[一线;疑案]]></Property>
+            <Property Name="Tags">CCTV12;社会治安</Property>
+            <Property Name="Reserve1"/>
+            <Property Name="Reserve2"/>
+            <Property Name="Reserve3"/>
+            <Property Name="Reserve4"/>
+            <Property Name="Reserve5"/>
+            <Property Name="OrderNumber"/>
+            <Property Name="StorageType">1</Property>
+            <Property Name="RMediaCode">Umai:PROG/3941258@BESTV.SMG.SMG</Property>
+            <Property Name="DefinitionFlag">0</Property>
+        </Object>
+        <Object ElementType="Movie" ID="Umai:MOVI/17881663@BESTV.SMG.SMG" Action="REGIST" Code="Umai:MOVI/17881663@BESTV.SMG.SMG">
+            <Property Name="Type">1</Property>
+            <Property Name="FileURL"><![CDATA[ftp://staimspclient:staimspclient@61.8.166.100:21/H264/20180603/1495780.ts]]></Property>
+            <Property Name="SourceDRMType">0</Property>
+            <Property Name="DestDRMType">0</Property>
+            <Property Name="AudioType">0</Property>
+            <Property Name="ScreenFormat">0</Property>
+            <Property Name="ClosedCaptioning">0</Property>
+            <Property Name="OCSURL"/>
+            <Property Name="Duration">003941</Property>
+            <Property Name="FileSize">491312056</Property>
+            <Property Name="BitRateType">3</Property>
+            <Property Name="VideoType">1</Property>
+            <Property Name="Resolution"/>
+            <Property Name="VideoProfile">4</Property>
+            <Property Name="SystemLayer">1</Property>
+            <Property Name="AudioFormat"/>
+            <Property Name="ServiceType"/>
+        </Object>
+        <Object ElementType="Picture" ID="Umai:PICT/19283518@BESTV.SMG.SMG" Action="REGIST" Code="Umai:PICT/19283518@BESTV.SMG.SMG">
+            <Property Name="FileURL"><![CDATA[ftp://staimspclient:staimspclient@61.8.166.100:21/Picture/20180603/3069507.jpg]]></Property>
+            <Property Name="Description"/>
+        </Object>
+        <Object ElementType="Picture" ID="Umai:PICT/19283519@BESTV.SMG.SMG" Action="REGIST" Code="Umai:PICT/19283519@BESTV.SMG.SMG">
+            <Property Name="FileURL"><![CDATA[ftp://staimspclient:staimspclient@61.8.166.100:21/Picture/20180603/3069508.jpg]]></Property>
+            <Property Name="Description"/>
+        </Object>
+    </Objects>
+    <Mappings>
+        <Mapping ParentType="Program" ParentID="Umai:PROG/3941258@BESTV.SMG.SMG" ParentCode="Umai:PROG/3941258@BESTV.SMG.SMG" ElementType="Movie" ElementID="Umai:MOVI/17881663@BESTV.SMG.SMG" ElementCode="Umai:MOVI/17881663@BESTV.SMG.SMG" Action="REGIST"/>
+        <Mapping ParentType="Picture" ParentID="Umai:PICT/19283518@BESTV.SMG.SMG" ParentCode="Umai:PICT/19283518@BESTV.SMG.SMG" ElementType="Program" ElementID="Umai:PROG/3941258@BESTV.SMG.SMG" ElementCode="Umai:PROG/3941258@BESTV.SMG.SMG" Action="REGIST">
+            <Property Name="Type">0</Property>
+        </Mapping>
+        <Mapping ParentType="Picture" ParentID="Umai:PICT/19283519@BESTV.SMG.SMG" ParentCode="Umai:PICT/19283519@BESTV.SMG.SMG" ElementType="Program" ElementID="Umai:PROG/3941258@BESTV.SMG.SMG" ElementCode="Umai:PROG/3941258@BESTV.SMG.SMG" Action="REGIST">
+            <Property Name="Type">2</Property>
+        </Mapping>
+    </Mappings>
+</ADI>
